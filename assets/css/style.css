@@ -7,7 +7,7 @@ header {
     color: rgb(58, 58, 58);
     margin-left: 18%;
     }
-    
+
 /*Body */
 body {
     background-color: rgb(213, 213, 213);
@@ -16,15 +16,17 @@ body {
 
 /* Game */
 .board {
-
+ width: 700px;
 }
 
 .card {
-
+  width: 150px;
+  height: 150px;
 }
 
 .view {
-
+   width: 140px;
+   height: 140px;
 }
 
 .back {
