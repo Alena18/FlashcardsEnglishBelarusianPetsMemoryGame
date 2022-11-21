@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Sonsie+One&display=swap');
+
+/*Header */
+header {
+    font-family: 'Sonsie One', sans-serif;
+    font-size: 20px;
+    color: rgb(58, 58, 58);
+    margin-left: 18%;
+    }
+    
+/*Body */
+body {
+    background-color: rgb(213, 213, 213);
+    margin-left: 25%;
+}
+
+/* Game */
+.board {
+
+}
+
+.card {
+
+}
+
+.view {
+
+}
+
+.back {
+
+}
