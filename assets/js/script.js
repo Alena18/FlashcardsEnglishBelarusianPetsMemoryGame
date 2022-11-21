@@ -81,7 +81,7 @@ cards.forEach(card => {
 });
 
 // Restart game (reset button)
-document.querySelectorAll(".restart").addEventListener("click", function(){
+document.querySelector(".restart").addEventListener("click", function(){
     window.location.reload();
     return false;
 });
