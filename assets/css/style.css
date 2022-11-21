@@ -39,6 +39,7 @@ body {
   margin: 1%;
 }
 
+/* Flip event */
 .card.flipped {
     transform: translateX(-5%) rotateY(180deg);
     background-color: #fff;
@@ -66,4 +67,49 @@ body {
   margin-left: 23%;
   padding: 1%;
   width: 200px;
+}
+
+/* For the screen sizes below 1200px */
+@media screen and (max-width: 1200px) {
+    header {
+        margin-left: 24%;
+    }
+    body {
+        margin-left: 14%;
+    }
+    .restart {
+        margin-left: 27%;
+        margin-top: 5%;
+        width: 270px;
+        font-size: 25px;
+    }
+}
+/* For the screen sizes below 800px */
+@media screen and (max-width: 800px) {
+    header {
+        margin-left: 27%;
+    }
+    body {
+        margin-left: 7%;
+    }
+    .restart {
+        margin-left: 30%;
+        margin-top: 5%;
+        
+    }
+}
+/* For the screen sizes below 500px */
+@media screen and (max-width: 1200px) {
+    header {
+        margin-left: 5%;
+    }
+    body {
+        margin-left: 0;
+    }
+    .restart {
+        margin-left: 5%;
+        margin-top: 5%;
+        width: 270px;
+        font-size: 25px;
+    }
 }
