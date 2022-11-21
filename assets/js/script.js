@@ -27,6 +27,45 @@ const flippedCard = e => {
     }
 };
 
+//Check the same card
+const checkMatch = () => {
+    const isEqual = cardOne.dataset.animal === cardTwo.dataset.animal;
+    isEqual ? disCards() : unflip();
+
+     
+    // if(cardOne.dataset.animal === cardTwo.dataset.animal) {
+    //     //Card are equal
+    //     disCards();
+    // } else {
+    //     lockedCard = true;
+    //     //Cards are not equal
+    //     setTimeout (() => {
+    //         cardOne.classList.remove("flipped");
+    //         cardTwo.classList.remove("flipped");
+    //         lockedCard = false;
+    //     }, 1000)
+    // }
+};
+
+//Disable cards function
+const disCards = () => {
+    cardOne.removerEventListener("click", flippedCard);
+    cardTwo.removerEventListener("click", flippedCard);
+};
+
+//Unflip cards function
+const unflip = () => {
+    lockedCard = true;
+
+    setTimeout (() => {
+                cardOne.classList.remove("flipped");
+                cardTwo.classList.remove("flipped");
+                lockedCard = false;
+            }, 1000)
+
+};
+
+
 //Add event listener to every card
 cards.forEach(card => {
     card.addEventListener("click", flippedCard);
