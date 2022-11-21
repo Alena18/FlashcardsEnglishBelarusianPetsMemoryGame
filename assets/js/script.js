@@ -60,7 +60,7 @@ const unflip = () => {
     setTimeout (() => {
                 cardOne.classList.remove("flipped");
                 cardTwo.classList.remove("flipped");
-                lockedCard = false;
+                resetBoard();
             }, 1000)
 
 };
@@ -78,4 +78,4 @@ cards.forEach(card => {
     card.addEventListener("click", flippedCard);
     const randomShuffle = Math.floor(Math.random()* cards.length);
     card.style.order = randomShuffle;
-})
+});

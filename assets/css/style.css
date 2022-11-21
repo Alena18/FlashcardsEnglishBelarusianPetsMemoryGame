@@ -22,13 +22,21 @@ body {
 .card {
   width: 150px;
   height: 150px;
+  cursor: pointer;
+  transform-style: preserve-3d;
+  transform-origin: center;
+  transition: transform 1s;
 }
 
+.card.flipped {
+    transform: translateX(-5%) rotateY(180deg);
+}
 .view {
    width: 140px;
    height: 140px;
+   backface-visibility: hidden;
 }
 
 .back {
-
+  transform: rotateY(180deg);
 }
