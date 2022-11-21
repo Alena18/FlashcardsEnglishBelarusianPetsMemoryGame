@@ -17,21 +17,35 @@ body {
 /* Game */
 .board {
  width: 700px;
+ /* border: 3px solid #f1f1f1; */
+ border-radius: 4%;
+ display: flex;
+ flex-wrap: wrap;
+ position: relative;
+ padding: 1%;
 }
 
 .card {
+  position: relative;
   width: 150px;
   height: 150px;
   cursor: pointer;
   transform-style: preserve-3d;
   transform-origin: center;
   transition: transform 1s;
+  background-color: #000;
+  border: 3px solid #000;
+  border-radius: 4%;
+  margin: 1%;
 }
 
 .card.flipped {
     transform: translateX(-5%) rotateY(180deg);
+    background-color: #fff;
 }
+
 .view {
+   position: absolute;
    width: 140px;
    height: 140px;
    backface-visibility: hidden;
