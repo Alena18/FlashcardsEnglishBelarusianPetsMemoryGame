@@ -14,9 +14,18 @@ const flippedCard = e => {
     target.classList.add("flipped");
 
     //Get cards by one tag
-
-
-}
+    console.log(target.dataset.animal);
+    if (!hasFlipped) {
+        //First click
+        hasFlipped = true;
+        cardOne = target;
+    } else {
+        //Second click
+        hasFlipped = false;
+        cardTwo = target;
+        checkMatch();
+    }
+};
 
 //Add event listener to every card
 cards.forEach(card => {
