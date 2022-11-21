@@ -65,8 +65,17 @@ const unflip = () => {
 
 };
 
-
+//Resert game board when cards are not equal
+const resetBoard = () => {
+    // [hasFlipped, lockedCard] = [false, false];
+    // [cardOne, cardTwo] = [null, null];
+    
+    hasFlipped = lockedCard =false;
+    cardOne = cardTwo = null;
+};
 //Add event listener to every card
 cards.forEach(card => {
     card.addEventListener("click", flippedCard);
+    const randomShuffle = Math.floor(Math.random()* cards.length);
+    card.style.order = randomShuffle;
 })
