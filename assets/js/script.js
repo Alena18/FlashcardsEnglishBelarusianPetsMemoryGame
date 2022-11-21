@@ -79,3 +79,9 @@ cards.forEach(card => {
     const randomShuffle = Math.floor(Math.random()* cards.length);
     card.style.order = randomShuffle;
 });
+
+// Restart game (reset button)
+document.querySelectorAll(".restart").addEventListener("click", function(){
+    window.location.reload();
+    return false;
+});

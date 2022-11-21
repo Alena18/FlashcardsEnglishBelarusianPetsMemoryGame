@@ -54,3 +54,8 @@ body {
 .back {
   transform: rotateY(180deg);
 }
+
+/* Reset button */
+.reset {
+    
+}
