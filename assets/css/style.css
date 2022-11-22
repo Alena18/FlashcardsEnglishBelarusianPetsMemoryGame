@@ -90,7 +90,7 @@ body {
         margin-left: 27%;
     }
     body {
-        margin-left: 7%;
+        margin-left: 2.2%;
     }
     .restart {
         margin-left: 30%;
@@ -98,18 +98,88 @@ body {
         
     }
 }
-/* For the screen sizes below 500px */
-@media screen and (max-width: 1200px) {
+/* For the screen sizes below 700px */
+@media screen and (max-width: 700px) {
     header {
-        margin-left: 5%;
+        margin-left: 15%;
     }
     body {
-        margin-left: 0;
+        margin-left: 1.5%;
     }
     .restart {
-        margin-left: 5%;
+        margin-left: 15%;
         margin-top: 5%;
         width: 270px;
         font-size: 25px;
     }
+    .board {
+        width: 600px;
+        padding: 0.8%;
+       }
+       
+       .card {
+         width: 110px;
+         height: 110px;
+         margin: 1%;
+       }
+    .view {
+        width: 100px;
+        height: 100px;
+     }
+}
+/* For the screen sizes below 520px */
+@media screen and (max-width: 520px) {
+    header {
+        font-size: 15px;
+    }
+    .board {
+        width: 450px;
+        padding: 0.3%;
+       }
+       
+       .card {
+         width: 90px;
+         height: 90px;
+         margin: 0.5%;
+       }
+    .view {
+        width: 85px;
+        height: 85px;
+     }
+}
+/* For the screen sizes below 415px */
+@media screen and (max-width: 415px) {
+    .board {
+        width: 350px;
+        padding: 0.1%;
+       }       
+       .card {
+         width: 78px;
+         height: 78px;
+         margin: 0.3%;
+       }
+    .view {
+        width: 73px;
+        height: 73px;
+     }
+     .restart {
+        margin-left: 20%;
+        width: 200px;
+        font-size: 18px;
+    }
+}
+/* For the screen sizes below 355px */
+@media screen and (max-width: 355px) {
+    .board {
+        width: 330px;
+       }       
+       .card {
+         width: 68px;
+         height: 68px;
+       }
+    .view {
+        width: 63px;
+        height: 63px;
+     }
+    
 }
