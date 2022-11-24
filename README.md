@@ -7,8 +7,16 @@ Flashcards English Belarusian Pets Memory Game is the site that represents a fla
 ![Am I Responsive](assets/images/amiresponsive.jpg)
 
 ## Features 
-There are  View Work LinkedIn Resumé buttons that help customers to reach me. View Work page contain gallery of my portfolio samples. LinkedIn connect to my LinkedIn page where customers can find extra information about me, they also can download my CV through Resumé link. Every page also has my email contact, while clicking it will connect to email page. Also, Hire Me button brings to sign up form that helps customers to reach me.
+Game has three parts
 
+- __Name of the game__
+Match a Card
+
+- __Game area__
+There are 16 cards on the screen, eight English cards with pet names and eight cards their Belarusian translation, the back of the card is orange with question on. The match of the card's translation should be found. Click on a card to flip it. If the two cards match, they will stay face-up. Game is over when all matches are found.
+
+- __Restart button__
+There is a restart button that helps to reset a game so cards will always be in a different place each time. The button can be used even if the game is not finished yet. 
 
 ## Testing 
 
@@ -23,7 +31,7 @@ I tested this pages work in different browser : Chrome, Firefox, Opera, Microsof
 
 I tested pages using Lighthouse in chrome developer tool.
 
-![Lighthouse](assets/images/lighthousedesktop.jpg)
+![Lighthouse](assets/images/lighthousedestop.jpg)
 ![Lighthouse](assets/images/lighthousemobile.jpg)
 
 And Am I responsive (https://ui.dev/amiresponsive) pages.
