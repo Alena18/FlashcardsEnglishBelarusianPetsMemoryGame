@@ -10,7 +10,7 @@ Flashcards English Belarusian Pets Memory Game is the site that represents a fla
 Game has three parts
 
 - __Name of the game__
-Match a Card
+Pets Cards
 
 - __Game area__
 There are 16 cards on the screen, eight English cards with pet names and eight cards their Belarusian translation, the back of the card is orange with question on. The match of the card's translation should be found. Click on a card to flip it. If the two cards match, they will stay face-up. Game is over when all matches are found.
