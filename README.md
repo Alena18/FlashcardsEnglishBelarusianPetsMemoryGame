@@ -23,8 +23,8 @@ I tested this pages work in different browser : Chrome, Firefox, Opera, Microsof
 
 I tested pages using Lighthouse in chrome developer tool.
 
-![Lighthouse](assets/images/scrlighthousedesktop.jpg)
-![Lighthouse](assets/images/scrlighthousemobile.jpg)
+![Lighthouse](assets/images/lighthousedesktop.jpg)
+![Lighthouse](assets/images/lighthousemobile.jpg)
 
 And Am I responsive (https://ui.dev/amiresponsive) pages.
 
