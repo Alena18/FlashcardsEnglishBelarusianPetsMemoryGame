@@ -6,11 +6,11 @@ let lockedCard = false; //Can't flip another card until previous cards action is
 
 // Find the same card and leave it flipped
 const flippedCard = e => {
-      if (lockedCard) return;
-      const target = e.target.parentElement;
-      
-      if (target === cardOne) return; // if you click the same card twice it stays open
-      // it reacts as the same class while this card should flip back
+    if (lockedCard) return;
+    const target = e.target.parentElement;
+
+    if (target === cardOne) return; // if you click the same card twice it stays open
+    // it reacts as the same class while this card should flip back
     target.classList.add("flipped");
 
     //Get cards by one tag
@@ -32,7 +32,7 @@ const checkMatch = () => {
     const isEqual = cardOne.dataset.animal === cardTwo.dataset.animal;
     isEqual ? disCards() : unflip();
 
-     
+
     // if(cardOne.dataset.animal === cardTwo.dataset.animal) {
     //     //Card are equal
     //     disCards();
@@ -57,11 +57,11 @@ const disCards = () => {
 const unflip = () => {
     lockedCard = true;
 
-    setTimeout (() => {
-                cardOne.classList.remove("flipped");
-                cardTwo.classList.remove("flipped");
-                resetBoard();
-            }, 1000)
+    setTimeout(() => {
+        cardOne.classList.remove("flipped");
+        cardTwo.classList.remove("flipped");
+        resetBoard();
+    }, 1000)
 
 };
 
@@ -69,19 +69,19 @@ const unflip = () => {
 const resetBoard = () => {
     // [hasFlipped, lockedCard] = [false, false];
     // [cardOne, cardTwo] = [null, null];
-    
-    hasFlipped = lockedCard =false;
+
+    hasFlipped = lockedCard = false;
     cardOne = cardTwo = null;
 };
 //Add event listener to every card
 cards.forEach(card => {
     card.addEventListener("click", flippedCard);
-    const randomShuffle = Math.floor(Math.random()* cards.length);
+    const randomShuffle = Math.floor(Math.random() * cards.length);
     card.style.order = randomShuffle;
 });
 
 // Restart game (reset button)
-document.querySelector(".restart").addEventListener("click", function(){
+document.querySelector(".restart").addEventListener("click", function () {
     window.location.reload();
     return false;
 });
