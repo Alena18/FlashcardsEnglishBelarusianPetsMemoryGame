@@ -14,8 +14,7 @@ const flippedCard = e => {
     target.classList.add("flipped");
 
     //Get cards by one tag
-    console.log(target.dataset.animal);
-    if (!hasFlipped) {
+      if (!hasFlipped) {
         //First click
         hasFlipped = true;
         cardOne = target;
@@ -31,26 +30,12 @@ const flippedCard = e => {
 const checkMatch = () => {
     const isEqual = cardOne.dataset.animal === cardTwo.dataset.animal;
     isEqual ? disCards() : unflip();
-
-
-    // if(cardOne.dataset.animal === cardTwo.dataset.animal) {
-    //     //Card are equal
-    //     disCards();
-    // } else {
-    //     lockedCard = true;
-    //     //Cards are not equal
-    //     setTimeout (() => {
-    //         cardOne.classList.remove("flipped");
-    //         cardTwo.classList.remove("flipped");
-    //         lockedCard = false;
-    //     }, 1000)
-    // }
 };
 
 //Disable cards function
 const disCards = () => {
-    cardOne.removerEventListener("click", flippedCard);
-    cardTwo.removerEventListener("click", flippedCard);
+    cardOne.removeEventListener("click", flippedCard);
+    cardTwo.removeEventListener("click", flippedCard);
 };
 
 //Unflip cards function
@@ -67,9 +52,6 @@ const unflip = () => {
 
 //Resert game board when cards are not equal
 const resetBoard = () => {
-    // [hasFlipped, lockedCard] = [false, false];
-    // [cardOne, cardTwo] = [null, null];
-
     hasFlipped = lockedCard = false;
     cardOne = cardTwo = null;
 };
