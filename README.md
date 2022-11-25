@@ -19,7 +19,14 @@ There are 16 cards on the screen, eight English cards with pet names and eight c
 There is a restart button that helps to reset a game so cards will always be in a different place each time. The button can be used even if the game is not finished yet. 
 
 - __Social link__
-I include also my github where someone can find more of my projects.
+The github link included in the footer where someone can find more of my projects.
+
+- __Color scheme__
+Color scheme include lightgrey(rgb(213, 213, 213)) for background, darker grey for the name of the game(rgb(58, 58, 58)), black(#000) and orange(rgb(233, 136, 40))
+
+- __Feature left to implement__
+Next step to upgrade the game is to add score board where it is possible to see how many times user try to flip the cards and how many cards already flipped. 
+
 
 ## Testing 
 
