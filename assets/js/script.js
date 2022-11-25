@@ -1,3 +1,4 @@
+/* jshint esversion: 11 */
 const cards = document.querySelectorAll(".card");
 
 let cardOne, cardTwo;
