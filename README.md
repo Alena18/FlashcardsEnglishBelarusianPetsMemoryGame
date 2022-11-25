@@ -4,7 +4,7 @@ The live link can be found [here](https://alena18.github.io/FlashcardsEnglishBel
 Flashcards English Belarusian Pets Memory Game
 Flashcards English Belarusian Pets Memory Game is the site that represents a flashcard game.The aim of this game is to match pairs of cards in different language (Belarusian-English). Click on a card in the interactivity to turn it over. Then click on another one. If the two cards match, they will stay face-up. If the two cards do not match, they will return to being face-down. The game ends when all the cards have been matched in pairs.It should help learner who study English and Belarusian languages to remember the name of the pets in both languages.
 
-![Am I Responsive](assets/images/amiresponsive.jpg)
+![Am I Responsive](documentation/amiresponsive.jpg)
 
 ## Features 
 Game has three parts
@@ -22,21 +22,21 @@ There is a restart button that helps to reset a game so cards will always be in 
 
 I tested this pages work in different browser : Chrome, Firefox, Opera, Microsoft Edge, Internet Explore.
 
-![Chrome](assets/images/chrome.jpg)
-![FireFox](assets/images/firefox.jpg)
-![Opera](assets/images/opera.jpg)
-![MicrosoftEdge](assets/images/microsoftedge.jpg)
-![InternetExplore](assets/images/internetexplore.jpg)
+![Chrome](documentation/chrome.jpg)
+![FireFox](documentation/firefox.jpg)
+![Opera](documentation/opera.jpg)
+![MicrosoftEdge](documentation/microsoftedge.jpg)
+![InternetExplore](documentation/internetexplore.jpg)
 
 
 I tested pages using Lighthouse in chrome developer tool.
 
-![Lighthouse](assets/images/lighthousedestop.jpg)
-![Lighthouse](assets/images/lighthousemobile.jpg)
+![Lighthouse](documentation/lighthousedestop.jpg)
+![Lighthouse](documentation/lighthousemobile.jpg)
 
 And Am I responsive (https://ui.dev/amiresponsive) pages.
 
-![Am I Responsive](assets/images/amiresponsive.jpg)
+![Am I Responsive](documentation/amiresponsive.jpg)
 
 All the test showed a good results
 
@@ -47,17 +47,17 @@ All the test showed a good results
 - HTML
   - only 'section' remark was return as a notice no errors were returned when passing through the official 
 
-  ![HTML validator](assets/images/html.jpg)
+  ![HTML validator](documentation/html.jpg)
   
 - CSS
   - No errors were found when passing through the official
 
-  ![HTML validator](assets/images/css.jpg)
+  ![HTML validator](documentation/css.jpg)
 
 - Javascript
   - No errors were found when passing through the official
 
-  ![HTML validator](assets/images/script.jpg)
+  ![HTML validator](documentation/script.jpg)
 
 ### Unfixed Bugs
 
