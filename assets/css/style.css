@@ -10,6 +10,7 @@ header {
 
 /*Body */
 body {
+    font-family: 'Sonsie One', sans-serif;
     background-color: rgb(213, 213, 213);
     margin-left: 25%;
 }
@@ -67,7 +68,12 @@ body {
     padding: 1%;
     width: 200px;
 }
-
+/*Footer social link*/
+.link {
+    margin-top: 15%;
+    margin-right: 35%;
+    text-align: center;
+}
 /* For the screen sizes below 1200px */
 @media screen and (max-width: 1200px) {
     header {
@@ -100,6 +106,9 @@ body {
         margin-left: 30%;
         margin-top: 5%;
 
+    }
+    .link {
+        margin-right: 5%;
     }
 }
 

@@ -18,6 +18,9 @@ There are 16 cards on the screen, eight English cards with pet names and eight c
 - __Restart button__
 There is a restart button that helps to reset a game so cards will always be in a different place each time. The button can be used even if the game is not finished yet. 
 
+- __Social link__
+I include also my github where someone can find more of my projects.
+
 ## Testing 
 
 I tested this pages work in different browser : Chrome, Firefox, Opera, Microsoft Edge, Internet Explore.
@@ -94,5 +97,7 @@ I have used my knowledge that I gain from CodeInstitute tutorial and my mentor .
 ### Media
 
 - The code for font was taken from google fonts website https://fonts.google.com/
+- The github icon was taken from https://fontawesome.com/
+
 
 Thank you for your time, hope you enjoy my README.

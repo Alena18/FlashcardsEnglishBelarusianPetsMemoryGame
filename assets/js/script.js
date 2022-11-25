@@ -29,8 +29,8 @@ const flippedCard = e => {
 
 //Check the same card
 const checkMatch = () => {
-    const isEqual = cardOne.dataset.animal === cardTwo.dataset.animal;
-    isEqual ? disCards() : unflip();
+    let isEqual = cardOne.dataset.animal === cardTwo.dataset.animal;
+    isEqual = isEqual ? disCards() : unflip();
 };
 
 //Disable cards function
@@ -47,7 +47,7 @@ const unflip = () => {
         cardOne.classList.remove("flipped");
         cardTwo.classList.remove("flipped");
         resetBoard();
-    }, 1000)
+    }, 2500);
 
 };
 
