@@ -74,6 +74,12 @@ body {
     margin-right: 35%;
     text-align: center;
 }
+a {
+    color:#000;
+}
+a:hover {
+    color: rgb(233, 136, 40);
+}
 /* For the screen sizes below 1200px */
 @media screen and (max-width: 1200px) {
     header {
