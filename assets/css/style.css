@@ -56,15 +56,15 @@ body {
     transform: rotateY(180deg);
 }
 
-/* Reset button */
-.restart {
+/* buttons */
+.btn {
     background-color: rgb(233, 136, 40);
     font-family: "Sonsie One", sans-serif;
     font-size: 18px;
     text-align: center;
     border-color: #000;
     border-radius: 4%;
-    margin-left: 2.2%;
+    margin-left: 2.1%;
     padding: 1%;
     width: 200px;
 }

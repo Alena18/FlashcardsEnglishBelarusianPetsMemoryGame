@@ -64,7 +64,40 @@ cards.forEach(card => {
 });
 
 // Restart game (reset button)
-document.querySelector(".restart").addEventListener("click", function () {
+document.getElementById("restart").addEventListener("click", function () {
     window.location.reload();
     return false;
 });
+// Timer
+const startTime = 2;
+let time = startTime *60;
+const timeTag = document.getElementById("timer");
+let timerInterval;
+startTimer();
+//Start timer function
+function startTimer() {
+    timerInterval = setInterval(countTimer, 1000)
+};
+//Timer function
+function countTimer() {
+    let minutes = Math.floor(time / 60);
+    let seconds = time % 60;
+    //If minutes or seconds less then 10 format them as 09 etc
+    minutes = minutes < 10 ? "0" + minutes : minutes;
+    seconds = seconds < 10 ? "0" + seconds : seconds;
+    //Timer format
+    timeTag.innerHTML = `${minutes} : ${seconds}`;
+    time--;
+    //Stop time after 00:00
+    if (time < 0) {
+        clearInterval(timerInterval);
+        timeOver();
+    };
+
+};
+// Function to stop the timer
+function timeOver() {
+    cards.forEach(card => {
+        card.classList.add("disable");
+    });
+}
