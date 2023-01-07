@@ -68,6 +68,9 @@ body {
     padding: 1%;
     width: 200px;
 }
+.disable {
+    pointer-events: none;
+}
 /*Footer social link*/
 .link {
     margin-top: 15%;

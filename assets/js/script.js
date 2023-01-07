@@ -101,3 +101,11 @@ function timeOver() {
         card.classList.add("disable");
     });
 }
+//Count how many time the cards flip
+let flipCount = 0;
+let flipCounter = document.getElementById("flips");
+
+function addFlipCount() {
+    flipCount +=1;
+    flipCounter.innerHTML = flipCount;
+};
