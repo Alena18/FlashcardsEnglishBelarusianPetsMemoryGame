@@ -96,7 +96,7 @@ function countTimer() {
     };
 
 };
-// Function to stop the timer
+//Function to stop the timer
 function timeOver() {
     cards.forEach(card => {
         card.classList.add("disable");
