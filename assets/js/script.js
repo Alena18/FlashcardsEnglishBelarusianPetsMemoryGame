@@ -21,6 +21,7 @@ const flippedCard = e => {
         cardOne = target;
     } else {
         //Second click
+        addFlipCount();
         hasFlipped = false;
         cardTwo = target;
         checkMatch();
@@ -101,11 +102,11 @@ function timeOver() {
         card.classList.add("disable");
     });
 }
-//Count how many time the cards flip
+//Count how many time the pair of the cards flip
 let flipCount = 0;
 let flipCounter = document.getElementById("flips");
 
-function addFlipCount() {
+function addFlipCount(){
     flipCount +=1;
-    flipCounter.innerHTML = flipCount;
+    flipCounter.innerText = flipCount;
 };
