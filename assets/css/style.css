@@ -7,8 +7,28 @@ header {
     color: rgb(58, 58, 58);
     margin-left: 18%;
 }
-
+#header_index {
+    font-size: 15px;
+    margin-left:0;
+}
 /*Body */
+/* Index html */
+#index {
+    background-color: #fff;
+}
+.script {
+    width: 50%;
+    margin-left: 8%;
+    margin-top: 10%;
+}
+#rules{
+    font-size: 16px;
+    position:absolute;
+    margin-top: -41%;
+    margin-left: 13%;
+    padding-right: 40%;
+}
+/* Game html */
 body {
     font-family: 'Sonsie One', sans-serif;
     background-color: rgb(213, 213, 213);
@@ -70,15 +90,25 @@ body {
     width: 200px;
     text-decoration: none;
 }
-#a-btn{
+#a_btn{
     border: none;
     padding: 10px 65px ;
     background-color: #000;
     color: rgb(233, 136, 40);
     margin: 0 22.2%;
 }
-#a-btn:hover{
+#a_btn:hover{
     color:rgb(233, 136, 40);
+}
+#play_button {
+    clear: both;
+    position: absolute;
+    margin-top: 46.5%;
+    margin-left: -28%;
+    padding:8px 30px;
+    color: rgb(233, 136, 40);
+    text-align: center;
+    background-color: #000;
 }
 .disable {
     pointer-events: none;
