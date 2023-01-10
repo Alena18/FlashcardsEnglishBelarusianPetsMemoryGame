@@ -2,7 +2,7 @@
 The live link can be found [here](https://alena18.github.io/FlashcardsEnglishBelarusianPetsMemoryGame/)
 
 Flashcards English Belarusian Pets Memory Game
-Flashcards English Belarusian Pets Memory Game is the site that represents a flashcard game.The aim of this game is to match pairs of cards in different language (Belarusian-English). Click on a card in the interactivity to turn it over. Then click on another one. If the two cards match, they will stay face-up. If the two cards do not match, they will return to being face-down. The game ends when all the cards have been matched in pairs.It should help learner who study English and Belarusian languages to remember the name of the pets in both languages.
+Flashcards English Belarusian Pets Memory Game is the site that represents a flashcard game. The website consists of two pages. One page where the player can read rules and Play button below the rules. Second page consists a game itself. The aim of this game is to match pairs of the cards in different languages Belarusian-English. There are eight pairs to match. These consist of eight popular pet names in English and their Belarusian equivalent. Click on a card to turn it over. Then click on another one. If the two cards match, they will stay face-up. If the two cards do not match, they will return face-down. The game ends when all the cards have been matched in pairs. Game is over if time is up. There is a Play Again button that mixed up all cards for a fresh start. Press Play button to start a game. There is two minutes to complete the game. Time starts when Play button is clicked. There is also Flip button that counts how many times pair of cards where turned over. The player can compare to have a better result. It should help learner who study English and Belarusian languages to remember the name of the pets in both languages.
 
 ![Am I Responsive](documentation/amiresponsive.jpg)
 
@@ -24,8 +24,11 @@ The github link included in the footer where someone can find more of my project
 - __Color scheme__
 Color scheme include lightgrey(rgb(213, 213, 213)) for background, darker grey for the name of the game(rgb(58, 58, 58)), black(#000) and orange(rgb(233, 136, 40))
 
+- __Font__
+Font is used from https://fonts.google.com/ called 'Sonsie One' if this font is not available any sans-serif available will be used.
+
 - __Feature left to implement__
-Next step to upgrade the game is to add score board where it is possible to see how many times user try to flip the cards and how many cards already flipped. 
+Next step to upgrade the game is to add score board where it is possible to see how many times user try to flip the cards and how many cards already flipped. It was done as an update.
 
 
 ## Testing 
