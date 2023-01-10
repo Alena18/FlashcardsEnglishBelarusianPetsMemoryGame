@@ -84,18 +84,15 @@ body {
     text-align: center;
     border: 2px solid #000;
     border-radius: 4%;
-    margin: 5px -5px 5px 25px;
-    margin-bottom: 25px;
     padding: 1%;
     width: 200px;
     text-decoration: none;
 }
 #a_btn{
     border: none;
-    padding: 10px 65px ;
+    padding: 14px 65px ;
     background-color: #000;
     color: rgb(233, 136, 40);
-    margin: 0 22.2%;
 }
 #a_btn:hover{
     color:rgb(233, 136, 40);
@@ -166,6 +163,15 @@ a:hover {
     .link {
         margin-right: 16%;
         text-align: center;
+    }
+    #a_btn{
+        padding: 12px 35px ;
+        font-size: 15px;
+    }
+    .btn {
+        width: 170px;
+        font-size: 15px;
+        
     }
 }
 
@@ -250,6 +256,13 @@ a:hover {
     }
     .link {
         margin-right: 2%;
+    }
+    #a_btn{
+        padding: 8px 0;
+    }
+    .btn {
+        display: block;
+        margin-top: 15px;
     }
 }
 
