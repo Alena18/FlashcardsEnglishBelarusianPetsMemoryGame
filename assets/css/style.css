@@ -17,16 +17,16 @@ header {
     background-color: #fff;
 }
 .script {
-    width: 50%;
-    margin-left: 8%;
+    width: 80%;
     margin-top: 10%;
+    margin-left: -5%;
 }
 #rules{
-    font-size: 16px;
+    font-size: 18px;
     position:absolute;
-    margin-top: -41%;
-    margin-left: 13%;
-    padding-right: 40%;
+    margin-top: -65%;
+    margin-left: 8%;
+    padding-right: 33%;
 }
 /* Game html */
 body {
@@ -103,8 +103,8 @@ body {
 #play_button {
     clear: both;
     position: absolute;
-    margin-top: 46.5%;
-    margin-left: -28%;
+    margin-top: 71%;
+    margin-left: -38%;
     padding:8px 30px;
     color: rgb(233, 136, 40);
     text-align: center;
@@ -143,6 +143,30 @@ a:hover {
         width: 270px;
         font-size: 25px;
     }
+    #header_index {
+        margin-left:-3%;
+        margin-right: 10%;
+        text-align: center;
+    }
+    .script {
+        margin-top: 10%;
+        margin-left: 2%;
+    }
+    #rules{
+        font-size: 14px;
+        margin-top: -75%;
+        margin-left: 13%;
+        padding-right: 27%;
+    }
+    #play_button {
+        margin-top: 90%;
+        margin-left: -45%;
+        padding:5px 20px;
+    }
+    .link {
+        margin-right: 16%;
+        text-align: center;
+    }
 }
 
 /* For the screen sizes below 800px */
@@ -162,6 +186,23 @@ a:hover {
     }
     .link {
         margin-right: 5%;
+    }
+    #header_index {
+        font-size: 12px;
+        margin-left: 10%;
+        
+    }
+    .script {
+        margin-left: 10%;
+    }
+    #rules{
+        margin-top: -85%;
+        margin-left: 25%;
+        padding-right: 27%;
+    }
+    #play_button {
+        margin-top: 101%;
+        margin-left: -55%;
     }
 }
 
@@ -197,6 +238,19 @@ a:hover {
         width: 100px;
         height: 100px;
     }
+    #rules{
+        font-size: 10px;
+        margin-top: -85%;
+        margin-left: 25%;
+    }
+    #play_button {
+        margin-top: 105%;
+        margin-left: -58%;
+        padding:5px 20px;
+    }
+    .link {
+        margin-right: 2%;
+    }
 }
 
 /* For the screen sizes below 520px */
@@ -219,6 +273,21 @@ a:hover {
     .view {
         width: 85px;
         height: 85px;
+    }
+    .script {
+        margin-left: 12%;
+    }
+    #rules{
+        font-size: 8px;
+    }
+    #play_button {
+        margin-top: 100%;
+        padding:0 2%;
+        margin-left: -62%;
+    }
+    .link {
+        font-size: 9px;
+        margin-right: 2%;
     }
 }
 
@@ -245,6 +314,24 @@ a:hover {
         width: 200px;
         font-size: 18px;
     }
+    .script {
+        margin-top: 0;
+        margin-left: 7%;
+        width: 90%;
+    }
+    #rules{
+        margin-top: -95%;
+        margin-left: 24%;
+        padding-right: 24%;
+    }
+    #play_button {
+        margin-top: 110%;
+        margin-left: -73%;
+    }
+    .link {
+        position: relative;
+        margin-top: 75%;
+    }
 }
 
 /* For the screen sizes below 355px */
@@ -261,6 +348,16 @@ a:hover {
     .view {
         width: 63px;
         height: 63px;
+    }
+    #header_index {
+        font-size: 10px;
+        margin-left: 10%;
+        
+    }
+    #rules{
+        margin-top: -97%;
+        margin-left: 20%;
+        padding-right: 20%;
     }
 
 }
