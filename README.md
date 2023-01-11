@@ -98,7 +98,7 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 
 ## Credits 
 
-I have used my knowledge that I gain from CodeInstitute tutorial and my mentor . Thank you for a great experience. 
+I have used my knowledge that I gain from CodeInstitute tutorial and my mentor Tim is a great teacher. Thank you for a great experience. Also I used youtube video. The live link can be found [here](https://youtu.be/DABkhfsBAWw). 
 
 ### Content 
 
