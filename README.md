@@ -28,7 +28,7 @@ Color scheme include lightgrey(rgb(213, 213, 213)) for background, darker grey f
 Font is used from https://fonts.google.com/ called 'Sonsie One' if this font is not available any sans-serif available will be used.
 
 - __Feature left to implement__
-Next step to upgrade the game is to add score board where it is possible to see how many times user try to flip the cards and how many cards already flipped. It was done as an update.
+Next step to upgrade the game is to add score board where it is possible to see how many times user try to flip the cards and how many cards were already flipped. It was done as an update. Also a new page was created with the game rules.
 
 
 ## Testing 
@@ -70,7 +70,7 @@ All the test showed a good results
 - Javascript
   - No errors were found when passing through the official
 
-  ![HTML validator](documentation/script.jpg)
+  ![HTML validator](documentation/jhint.jpg)
 
 ### Unfixed Bugs
 

@@ -77,8 +77,8 @@ let timerInterval;
 startTimer();
 //Start timer function
 function startTimer() {
-    timerInterval = setInterval(countTimer, 1000)
-};
+    timerInterval = setInterval(countTimer, 1000);
+}
 //Timer function
 function countTimer() {
     let minutes = Math.floor(time / 60);
@@ -93,9 +93,9 @@ function countTimer() {
     if (time < 0) {
         clearInterval(timerInterval);
         timeOver();
-    };
+    }
 
-};
+}
 //Function to stop the timer
 function timeOver() {
     cards.forEach(card => {
@@ -109,4 +109,4 @@ let flipCounter = document.getElementById("flips");
 function addFlipCount(){
     flipCount +=1;
     flipCounter.innerText = flipCount;
-};
+}
