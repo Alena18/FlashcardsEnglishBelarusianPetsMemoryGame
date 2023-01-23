@@ -5,44 +5,55 @@ header {
     font-family: 'Sonsie One', sans-serif;
     font-size: 20px;
     color: rgb(58, 58, 58);
-    margin-left: 18%;
 }
 #header_index {
     font-size: 15px;
-    margin-left:0;
 }
 /*Body */
 /* Index html */
 #index {
     background-color: #fff;
 }
-.script {
-    width: 80%;
-    margin-top: 10%;
-    margin-left: -5%;
-}
+
 #rules{
     font-size: 18px;
-    position:absolute;
-    margin-top: -65%;
-    margin-left: 8%;
-    padding-right: 33%;
+    top: 0;
+    margin: 3em auto;
+    max-width: 65%;
+    left: 0;
+    right: 0;
 }
 /* Game html */
 body {
     font-family: 'Sonsie One', sans-serif;
     background-color: rgb(213, 213, 213);
-    margin-left: 25%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#container {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 80%;
+    position: relative;
+}
+
+#container img {
+    max-width: 100%;
 }
 
 /* Game */
 .board {
+    margin: 0 auto;
     width: 700px;
     border-radius: 4%;
     display: flex;
     flex-wrap: wrap;
     position: relative;
     padding: 1%;
+
 }
 
 .card {
@@ -56,7 +67,6 @@ body {
     background-color: #000;
     border: 3px solid #000;
     border-radius: 4%;
-    margin: 1%;
 }
 
 /* Flip event */
@@ -66,7 +76,7 @@ body {
 }
 
 .view {
-    position: absolute;
+    /* position: absolute; */
     width: 140px;
     height: 140px;
     backface-visibility: hidden;
@@ -98,14 +108,13 @@ body {
     color:rgb(233, 136, 40);
 }
 #play_button {
-    clear: both;
-    position: absolute;
-    margin-top: 71%;
-    margin-left: -38%;
     padding:8px 30px;
     color: rgb(233, 136, 40);
     text-align: center;
     background-color: #000;
+    margin: 0 auto;
+    margin-top: -5em;
+    z-index: 100;
 }
 .disable {
     pointer-events: none;
@@ -126,38 +135,20 @@ a:hover {
 
 /* For the screen sizes below 1200px */
 @media screen and (max-width: 1200px) {
-    header {
-        margin-left: 24%;
-    }
-
-    body {
-        margin-left: 14%;
-    }
 
     .restart {
-        margin-left: 27%;
+        /* margin-left: 27%; */
         margin-top: 5%;
         width: 270px;
         font-size: 25px;
     }
     #header_index {
-        margin-left:-3%;
-        margin-right: 10%;
         text-align: center;
-    }
-    .script {
-        margin-top: 10%;
-        margin-left: 2%;
     }
     #rules{
         font-size: 14px;
-        margin-top: -75%;
-        margin-left: 13%;
-        padding-right: 27%;
     }
     #play_button {
-        margin-top: 90%;
-        margin-left: -45%;
         padding:5px 20px;
     }
     .link {
@@ -177,54 +168,20 @@ a:hover {
 
 /* For the screen sizes below 800px */
 @media screen and (max-width: 800px) {
-    header {
-        margin-left: 27%;
-    }
-
-    body {
-        margin-left: 2.2%;
-    }
-
-    .restart {
-        margin-left: 30%;
-        margin-top: 5%;
-
-    }
+    
     .link {
         margin-right: 5%;
     }
     #header_index {
         font-size: 12px;
-        margin-left: 10%;
-        
-    }
-    .script {
-        margin-left: 10%;
-    }
-    #rules{
-        margin-top: -85%;
-        margin-left: 25%;
-        padding-right: 27%;
-    }
-    #play_button {
-        margin-top: 101%;
-        margin-left: -55%;
+             
     }
 }
 
 /* For the screen sizes below 700px */
 @media screen and (max-width: 700px) {
-    header {
-        margin-left: 15%;
-    }
-
-    body {
-        margin-left: 1.5%;
-    }
-
+    
     .restart {
-        margin-left: 15%;
-        margin-top: 5%;
         width: 270px;
         font-size: 25px;
     }
@@ -246,12 +203,9 @@ a:hover {
     }
     #rules{
         font-size: 10px;
-        margin-top: -85%;
-        margin-left: 25%;
     }
     #play_button {
-        margin-top: 105%;
-        margin-left: -58%;
+        margin-top: -3em;
         padding:5px 20px;
     }
     .link {
@@ -272,6 +226,15 @@ a:hover {
         font-size: 15px;
     }
 
+    #container img {
+        display: none;
+    }
+
+    #container {
+        max-width: 100%;
+        position: unset;
+    }
+
     .board {
         width: 450px;
         padding: 0.3%;
@@ -287,16 +250,10 @@ a:hover {
         width: 85px;
         height: 85px;
     }
-    .script {
-        margin-left: 12%;
-    }
-    #rules{
-        font-size: 8px;
-    }
+
     #play_button {
-        margin-top: 100%;
         padding:0 2%;
-        margin-left: -62%;
+        margin-top: 3em;
     }
     .link {
         font-size: 9px;
@@ -323,23 +280,8 @@ a:hover {
     }
 
     .restart {
-        margin-left: 20%;
         width: 200px;
         font-size: 18px;
-    }
-    .script {
-        margin-top: 0;
-        margin-left: 7%;
-        width: 90%;
-    }
-    #rules{
-        margin-top: -95%;
-        margin-left: 24%;
-        padding-right: 24%;
-    }
-    #play_button {
-        margin-top: 110%;
-        margin-left: -73%;
     }
     .link {
         position: relative;
@@ -363,18 +305,12 @@ a:hover {
         height: 63px;
     }
     #header_index {
-        font-size: 10px;
-        margin-left: 10%;
-        
+        font-size: 10px;     
     }
-    #rules{
-        font-size: 7px;
-        margin-top: -97%;
-        margin-left: 20%;
-        padding-right: 20%;
-    }
-    #play_button {
-        margin-left: -77%;
-    }
+}
 
+@media (min-width: 521px) {
+    #rules {
+        position: absolute;
+    }
 }
