@@ -4,6 +4,7 @@ const cards = document.querySelectorAll(".card");
 let cardOne, cardTwo;
 let hasFlipped = false;
 let lockedCard = false; //Can't flip another card until previous cards action is completed
+let totalMatches = 0;
 
 // Find the same card and leave it flipped
 const flippedCard = e => {
@@ -31,6 +32,14 @@ const flippedCard = e => {
 //Check the same card
 const checkMatch = () => {
     let isEqual = cardOne.dataset.animal === cardTwo.dataset.animal;
+    if (isEqual){
+        totalMatches++;
+    }
+    if (totalMatches >= cards.length/2) {
+        clearInterval(timerInterval);
+        timeOver();
+
+    }
     isEqual = isEqual ? disCards() : unflip();
 };
 
