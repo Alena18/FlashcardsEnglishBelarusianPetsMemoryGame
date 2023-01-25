@@ -67,16 +67,16 @@ body {
     background-color: #000;
     border: 3px solid #000;
     border-radius: 4%;
+    margin: 1%; /* Space between cards */
 }
 
 /* Flip event */
 .card.flipped {
-    transform: translateX(-5%) rotateY(180deg);
+    transform: rotateY(180deg);
     background-color: #fff;
 }
 
 .view {
-    /* position: absolute; */
     width: 140px;
     height: 140px;
     backface-visibility: hidden;
@@ -84,6 +84,8 @@ body {
 
 .back {
     transform: rotateY(180deg);
+    position: absolute;
+    margin: 2% 0 0 -90%; /*Keeps back of the card in right position*/
 }
 
 /* buttons */
