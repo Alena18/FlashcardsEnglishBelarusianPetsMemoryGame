@@ -110,7 +110,38 @@ function timeOver() {
     cards.forEach(card => {
         card.classList.add("disable");
     });
+    setTimeout(() => {
+        createConfetti();
+    }, 5);
+    if (totalMatches >= cards.length / 2) {
+        setTimeout(() => {
+            createConfetti();
+        }, 5);
+    }
 }
+// Confetti
+const confettiContainer = document.querySelector(".confetti-container");
+
+function createConfetti() {
+    const colors = ["#e74c3c", "#3498db", "#27ae60", "#f1c40f"];
+    const confettiCount = 100;
+
+    for (let i = 0; i < confettiCount; i++) {
+        const confetti = document.createElement("div");
+        confetti.className = "confetti";
+        confetti.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+        confetti.style.left = `${Math.random() * 100}%`;
+        confetti.style.animationDuration = `${Math.random() * 3 + 2}s`;
+        confetti.style.animationDelay = `${Math.random() * 2}s`;
+
+        confettiContainer.appendChild(confetti);
+
+        confetti.addEventListener("animationend", () => {
+            confetti.remove();
+        });
+    }
+}
+
 //Count how many time the pair of the cards flip
 let flipCount = 0;
 let flipCounter = document.getElementById("flips");
